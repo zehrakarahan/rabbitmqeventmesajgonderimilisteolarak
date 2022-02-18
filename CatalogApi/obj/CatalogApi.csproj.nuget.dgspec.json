@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\CatalogApi\\CatalogApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\CatalogApi\\CatalogApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\CatalogApi\\CatalogApi.csproj",
+        "projectName": "CatalogApi",
+        "projectPath": "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\CatalogApi\\CatalogApi.csproj",
+        "packagesPath": "C:\\Users\\Zehra.Karahan\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\CatalogApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zehra.Karahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\Zehra.Karahan\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Zehra.Karahan\\source\\repos\\RabbitMqOrnekEvent\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zehra.Karahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

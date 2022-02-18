@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogApi", "CatalogApi\CatalogApi.csproj", "{DC90442E-EBFC-4174-9857-4BD3CF8ED014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi", "OrderApi\OrderApi.csproj", "{33A82612-6080-4BF7-A7F3-1634FD617917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{A8D598CD-FB68-4583-88CA-80CE92A550B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC90442E-EBFC-4174-9857-4BD3CF8ED014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC90442E-EBFC-4174-9857-4BD3CF8ED014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC90442E-EBFC-4174-9857-4BD3CF8ED014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC90442E-EBFC-4174-9857-4BD3CF8ED014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A82612-6080-4BF7-A7F3-1634FD617917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A82612-6080-4BF7-A7F3-1634FD617917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A82612-6080-4BF7-A7F3-1634FD617917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A82612-6080-4BF7-A7F3-1634FD617917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D598CD-FB68-4583-88CA-80CE92A550B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D598CD-FB68-4583-88CA-80CE92A550B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D598CD-FB68-4583-88CA-80CE92A550B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D598CD-FB68-4583-88CA-80CE92A550B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59828C55-9C2F-43F8-A862-444A86CBA2B2}
+	EndGlobalSection
+EndGlobal
